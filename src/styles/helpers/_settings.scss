@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    color: var(--text-app);
+    background-color: var(--bg-app);
+    font-size: 16px;
+    font-weight: 400;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 var(--container-offset);
+    max-width: var(--container-width);
+  }
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

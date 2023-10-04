@@ -26,6 +26,12 @@ html(lang="ru")
 		link(rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png")
 		link(rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png")
 		link(rel="stylesheet" href="styles/main.css")
-	body
-		block content
-		block scripts
+		script(defer src="js/vendor.js")
+		script(defer src="js/main.js")
+	body.site
+		.site__container
+			include ../../blocks/modules/header/header
+			main.main-wrapper
+				.main-wrapper__content
+					block content
+			include ../../blocks/modules/footer/footer
