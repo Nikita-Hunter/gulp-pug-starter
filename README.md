@@ -180,11 +180,3 @@ svg use {
     * для подключения стилевых файлов библиотек импортируйте их в файл ```src/styles/vendor/_libs.scss```
     * JS-файлы и стилевые файлы библиотек самостоятельно изменять нельзя
 
-## :point_right: Нужен SCSS без Pug?
-Используйте [эту](https://github.com/andrewalexeich/gulp-scss-starter/) сборку.
-
-## :yellow_heart: Нравится проект?
-Сообщайте мне о [багах](https://github.com/andrewalexeich/gulp-pug-starter/issues), ставьте звёздочку, [задонатьте](https://t.me/andrewalexeich) мне Telegram TON на пиво :beer:
-
-## :envelope: Контакты
-По всем вопросам пишите в [Telegram](https://t.me/andrewalexeich)
