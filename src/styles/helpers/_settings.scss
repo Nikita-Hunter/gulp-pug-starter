@@ -1,15 +1,15 @@
 body {
     width: 100%;
-    overflow-x: hidden;
-    font-family: var(--font-family);
-    color: var(--text-app);
-    background-color: var(--bg-app);
     font-size: 16px;
     font-weight: 400;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    background-color: var(--color-bg-app);
+    overflow-x: hidden;
 }
 .container {
-    margin: 0 auto;
-    padding: 0 var(--container-offset);
+    margin-inline: auto;
+    padding-inline: var(--container-offset);
     max-width: var(--container-width);
   }
 
@@ -23,4 +23,9 @@ img {
     text-decoration: none;
     color: inherit;
   }
-  
+
+  ul, ol, menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
